@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <title>Wedding website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/halimun" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="style.css" />
+	<script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="banner">
+        <div class="nav">
+          <div class="menu">
+            <a href="#">Akad </a>
+            <a href="#us">Us </a>
+            <a href="#history">History </a>
+            <a href="#lokasi">lokasi </a>
+            <a href="#party">Party </a>
+          </div>
+        </div>
+        <div class="text">
+          <h1>Steven & Annisa</h1>
+          <span class="date">On 14th November, 2023</span>
+        </div>
+      </div>
+      <img
+        class="bouquet"
+        src="https://cdn.pixabay.com/photo/2016/06/27/14/42/flowers-1482644_960_720.png"
+        alt=""
+      />
+      <img
+        class="bouquet2"
+        src="https://cdn.pixabay.com/photo/2020/09/01/18/13/background-5535928_960_720.png"
+        alt=""
+      />
+      <div class="section">
+        <div class="us">
+          <h2><a name="us">Us</a></h2>
+          <div class="reveal usa">
+            <img src="laki.jpg" />
+            <span>Steven</span>
+          </div>
+          <div class="reveal usa">
+            <img src="cewe.jpg" />
+            <span class="cewe">Annisa</span>
+          </div>
+        </div>
+        <div class="reveal history">
+          <h2><a name="history">History</a></h2>
+          <img src="https://i.ibb.co/wZk2sTj/wed-venue.jpg" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sunt
+            eos cumque perspiciatis eaque beatae facilis atque obcaecati iure
+            rerum. Excepturi consequuntur molestias maiores similique accusamus
+            praesentium libero itaque obcaecati esse dicta cum doloribus,
+            voluptate hic. Quis saepe laboriosam reiciendis?
+          </p>
+        </div>
+        <div class="reveal party">
+          <h2><a name="party">Party</a></h2>
+          <img src="https://i.ibb.co/dMb2T7P/wed-party.jpg" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+            excepturi quod maxime tempore corporis aliquid! Maxime cum tenetur
+            rerum? Exercitationem quam laudantium maxime unde accusamus
+            excepturi architecto, temporibus facere ullam iure sunt quae placeat
+            nulla maiores, nobis ipsum quas quos!
+          </p>
+        </div>
+        <div class="reveal lokasi">
+          <h2><a name="lokasi">Lokasi</a></h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.287259034299!2d106.83086157514022!3d-6.356850662189032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ec3c53dfed75%3A0xad5f6ba586fc5d5e!2sUniversitas%20Bina%20Sarana%20Informatika%20Kampus%20Margonda%20(UBSI%20Margonda)!5e0!3m2!1sid!2sid!4v1686296302016!5m2!1sid!2sid"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="buku">
+          <form action="proses.php" method="post">
+            <div align="center"></div>
+            <table width="366" border="0" align="center">
+              <tr>
+                <td colspan="2">
+                  <div align="center">
+                    <h2>Buku Tamu</h2>
+                    <p>.....................................................</p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td width="254">
+                  <input
+                    class="nama"
+                    name="txtnama"
+                    type="text"
+                    id="txtNama"
+                    size="42"
+                    maxlength="25"
+                    placeholder="Nama"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    class="alamat"
+                    name="txtalamat"
+                    type="text"
+                    id="txtAlamat"
+                    size="42"
+                    maxlength="35"
+                    placeholder="Alamat"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    class="email"
+                    name="txtemail"
+                    type="email"
+                    id="txtEmail"
+                    size="42"
+                    maxlength="30"
+                    placeholder="Email"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    class="kota"
+                    name="txtkota"
+                    type="text"
+                    id="txtKota"
+                    size="42"
+                    maxlength="20"
+                    placeholder="Kota"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <textarea name="txtpesan" placeholder="Pesan Anda"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <div align="center">
+                    <input
+                      class="button"
+                      type="submit"
+                      name="submit"
+                      value="Simpan"
+                    />
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+	  <footer>
+		<div class="social">
+			<p>Contact Us</p>
+			<a href="https://www.instagram.com/marska.akmal"><i data-feather="instagram"></i></a>
+			<a class="whatsapp" href="https://wa.me/+6281285803759" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/128/160/160200.png"></a>
+			<a href="https://twitter.com/bangdapa"><i data-feather="twitter"></i></a>
+		</div>
+		<div class="footer-menu">
+			<a href="#">Akad </a>
+            <a href="#us">Us </a>
+            <a href="#history">History </a>
+            <a href="#lokasi">lokasi </a>
+            <a href="#party">Party </a>
+		</div>
+		<div class="us-footer">
+			<p>Steven Saputra & Annisa Azizah</p>
+		</div>
+	</footer>
+      </div>
+      <div>
+        <div class="musik">
+          <audio id="audio">
+            <source src="jazz.mp3" type="audio/mpeg" />
+          </audio>
+          <button id="playPauseBTN" onclick="playPause()">►</button>
+          <button onclick="stop()">Stop ▋</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="wedding.js"></script>
+  <script>
+	feather.replace()
+  </script>
+</html>
